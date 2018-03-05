@@ -1,0 +1,56 @@
+{% load static wagtailcore_tags wagtailimages_tags blogapp_tags wagtailroutablepage_tags %}
+
+<div class="col-md-4">
+
+    <div class="profile-sidebar">
+        <!-- SIDEBAR USERPIC -->
+        <div class="profile-userpic">
+            {% if blog_page.sidebar_image %}
+                {% image blog_page.sidebar_image original as sidebar_image %}
+                    <img src="{{ sidebar_image.url }}" class="img-responsive" ></img>
+            {% endif %}
+            <!-- {% if post.sidebar_image %}
+            {% image post.sidebar_image fill-900x300 as 
+                sidebar_image %}
+            {% endif %} -->
+        </div>
+        <div class="profile-usertitle">
+            <div class="profile-usertitle-name">
+                {% block title %}
+                {{ blog_page.title }}
+                {% endblock title %}
+            </div>
+            <div class="profile-usertitle-job">
+                {% if blog_page.description %} 
+                {{ blog_page.description }}
+                {% endif %}
+            </div>
+        </div>
+    </div>
+
+    <!-- Blog Search Well -->
+    <div class="well">
+        <h4>Поиск по сайту</h4>
+            <form role="search" method="get" class="form-search" action="{% routablepageurl blog_page "post_search" %}" method="get">
+                <div class="input-group">
+                    <input type="text" class="form-control search-query" name="q" placeholder="Поиск&hellip;" title="Поиск:" />
+                    <span class="input-group-btn">
+                        <button type="submit" class="btn btn-default" name="submit" id="searchsubmit" value="Search"><span class="glyphicon glyphicon-search"></span>
+                    </button>
+                    </span>
+                </div>
+            </form>
+        <!-- /.input-group -->
+    </div>
+<ul class="list-group">
+    <li class="list-group-item">
+        <h4> 
+            Категории
+        </h4>
+    </li>
+    {% categories_list %}
+</ul>
+
+    {% tags_list %}
+
+</div>

@@ -1,0 +1,15 @@
+{% load i18n wagtailroutablepage_tags %}
+
+
+
+    {% for category in categories %}
+        <li class="list-group-item">
+            <a href="{% routablepageurl blog_page "post_by_category" category.slug %}" style="color: #2e6da4;">
+                <i class="icon-folder-open icon-large"></i>
+                {{ category.name }}
+            </a>
+        </li>
+    {% empty %}
+        {% trans 'Категории пока что отсутствуют' %}
+    {% endfor %}
+

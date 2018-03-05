@@ -1,0 +1,26 @@
+{% extends "wagtailadmin/login.html" %}
+
+{% block login_form %}
+    <script src='https://www.google.com/recaptcha/api.js'></script> 
+    {{ block.super }}
+{% endblock %}
+
+{% block branding_login %} Вход на сайт{% endblock %}
+
+{% block above_login %}
+
+<p>Если вы не имеете доступа к данной части сайта, пожалуйста перейдите <a href="/"> на основную страницу сайта!</a> <br>
+Действия, направленные на получение доступа к данному ресурсу без согласия администрации считаются противоправными. <br>
+За противоправные действия на данном ресурсе пользователи несут соответствующую уголовную ответственность.<br>
+</p><div> </div>
+
+{% endblock %}
+
+
+{% block submit_buttons %}
+    {{ block.super }}
+	<p> <br> </p>
+	<div class="g-recaptcha" data-sitekey="6LcjU0oUAAAAABQ4y8OyaM5QIlvDvH5ZVRBbvNXD" data-theme="dark"></div>
+
+{% endblock %}
+
