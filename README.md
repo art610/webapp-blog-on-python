@@ -5,7 +5,7 @@
 Примерный мануал по установке и настройке Wagtail на виртуальную машину Linux Debian 9 Stretch на Microsoft Azure можно найти [по ссылке.](https://lnovus.gitbooks.io/microsoft-azure)
 Заметки по работе с Linux Debian можно найти [по ссылке.](https://lnovus.gitbooks.io/linux-debian-short-manual)
 -----------
-### Полезные ссылки:
+### Полезные ссылки: ###
 * [Python3 | Docs](https://docs.python.org/3/)
 * [PostgreSQL | Docs](https://www.postgresql.org/docs/9.6/static/index.html)
 * [Python Package Index | pip](https://pypi.python.org/pypi)
