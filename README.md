@@ -2,8 +2,12 @@
 
 Веб-приложение на Python, virtualenv, Wagtail (Django), Gunicorn (WSGI HTTP Server), PostgreSQL (pip psycopg2).
 С примером веб-приложения на Wagtail можно ознакомиться [по ссылке.](http://forpology.ru/)
-Примерный мануал по установке и настройке Wagtail на виртуальную машину Linux Debian 9 Stretch на Microsoft Azure можно найти [по ссылке.](https://lnovus.gitbooks.io/microsoft-azure)
-Заметки по работе с Linux Debian можно найти [по ссылке.](https://lnovus.gitbooks.io/linux-debian-short-manual)
+
+Примерный мануал по установке и настройке Wagtail на виртуальную машину Linux Debian 9 Stretch на Microsoft Azure можно найти на GitBook
+[по данной ссылке.](https://lnovus.gitbooks.io/microsoft-azure)
+
+Заметки по работе с Linux Debian можно также найти на GitBook [по данной ссылке.](https://lnovus.gitbooks.io/linux-debian-short-manual)
+
 -----------
 ### Полезные ссылки: ###
 * [Python3 | Docs](https://docs.python.org/3/)
@@ -15,3 +19,5 @@
 * [Django-el-pagination | Django pagination tools](https://pypi.python.org/pypi/django-el-pagination/)
 * [Django-taggit | Reusable Django application for simple tagging](https://pypi.python.org/pypi/django-taggit/)
 * [GitHub Guides | Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
+
+
