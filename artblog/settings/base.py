@@ -100,9 +100,9 @@ WSGI_APPLICATION = 'artblog.wsgi.application'
 DATABASES = {
     'default': {
 		'ENGINE': 'django.db.backends.postgresql_psycopg2',
-		'NAME': 'arttaildb',
-		'USER': 'arttailusr',
-		'PASSWORD': 'gJo610kkB',
+		'NAME': '<dbname>',
+		'USER': '<dbusername>',
+		'PASSWORD': '<dbpassword>',
 		'HOST': 'localhost',
 		'PORT': '',
     }
