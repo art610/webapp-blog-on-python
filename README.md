@@ -1,7 +1,7 @@
 # webapp-blog-on-python
 
 Веб-приложение на Python, virtualenv, Wagtail (Django), Gunicorn (WSGI HTTP Server), PostgreSQL (pip psycopg2).
-Веб-сайт для демонстрации [размещен по ссылке.](http://forpology.ru/)
+С примером веб-приложения на Wagtail можно ознакомиться [по ссылке.](http://forpology.ru/)
 
 -----------
 ### Полезные ссылки:
