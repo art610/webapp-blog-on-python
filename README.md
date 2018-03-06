@@ -1,6 +1,7 @@
 # webapp-blog-on-python
 
 Веб-приложение на Python, virtualenv, Wagtail (Django), Gunicorn (WSGI HTTP Server), PostgreSQL (pip psycopg2).
+Веб-сайт для демонстрации [размещен по ссылке.](http://forpology.ru/)
 
 -----------
 ### Полезные ссылки:
@@ -11,4 +12,4 @@
 * [Wagtail CMS | Docs](http://docs.wagtail.io/en/v1.13.1/)
 * [Markdown 2.6.11 | Python implementation of Markdown](https://pypi.python.org/pypi/Markdown)
 * [Django-el-pagination | Django pagination tools](https://pypi.python.org/pypi/django-el-pagination/)
-* [Django-taggit | Reusable Django application for simple tagging](https://pypi.python.org/pypi/django-taggit
+* [Django-taggit | Reusable Django application for simple tagging](https://pypi.python.org/pypi/django-taggit/)
