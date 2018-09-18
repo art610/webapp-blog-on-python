@@ -1,7 +1,6 @@
 # webapp-blog-on-python  
 
 Веб-приложение на Python, virtualenv, Wagtail (Django), Gunicorn (WSGI HTTP Server), PostgreSQL (pip psycopg2).
-С примером веб-приложения на Wagtail можно ознакомиться [по ссылке.](http://forpology.ru/)
 
 Для установки веб-приложения на Linux Debian из данного репозитория можно воспользоваться данной инструкцией:
 1. Обновить зависимости и пакеты:
